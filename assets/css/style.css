@@ -24,7 +24,7 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
     font-weight: 300;
-    color: #555;
+    color: white;
     line-height: 30px;
 }
 
@@ -293,7 +293,7 @@ img { max-width: 100%; }
 
 .portfolio-box {
 	padding-top: 30px;
-	text-align: left;
+	text-align: center;
 }
 
 .portfolio-box-image {
@@ -415,12 +415,18 @@ img { max-width: 100%; }
 }
 
 
-/***** More services *****/
+/***** Contact *****/
 
 .more-services-box {
 	margin-top: 30px;
 	text-align: left;
 }
+
+.more-services-box-icon {
+  padding: 0;
+  border: 0;
+}
+
 
 .more-services-box .more-services-box-icon {
 	width: 60px;
@@ -438,13 +444,22 @@ img { max-width: 100%; }
 	background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #ffb24b 0%,#9b59b6 100%); /* W3C */
+	background: linear-gradient(to bottom,  #14b88f 0%,#5314b8 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 }
 
 .more-services-box h3 {
 	margin-top: 0;
-	padding: 0 0 10px 0;
+	padding: 15px 0 10px 0;
+}
+
+.inline {
+  display: inline;
+}
+
+.more-services-box p {
+  margin-left: 20px;
+  padding: 15px 0 10px 0;
 }
 
 
